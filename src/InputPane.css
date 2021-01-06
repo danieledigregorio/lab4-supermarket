@@ -1,0 +1,35 @@
+body {
+    background: #191929;
+}
+
+.Input {
+    margin: 0.5em;
+    display: flex;
+    justify-content: center;
+    height: 2em;
+    font-size: 20px;
+    user-select: none;
+}
+
+input {
+    text-align: right;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+input:focus, button:focus {
+    box-shadow: 0px 0px 5px 5px #003535;
+    border: none;
+    outline: none;
+    outline-offset: 0px;
+}
+
+button {
+    margin-left: 1em;
+    min-width: 3em;
+    border-radius: 5px;
+    border: none;
+    background-color: deepskyblue;
+}
